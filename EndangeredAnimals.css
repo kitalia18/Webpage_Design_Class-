@@ -1,0 +1,119 @@
+/*
+* Kayleen Italia
+* December 11, 2017
+* Endangered Animals
+*/
+
+/*This helps to add a space between various items on the page.*/
+* {
+	margin: 0;
+	padding: 0; 
+		}
+
+/* I adjusted the font of the body paragraph to be trebuchet and the font size to be 12.
+I also adjusted the width in order to center the entire webpage. */		
+body {
+	background-color: #F8F9F9;
+	font-family: "Trebuchet MS", Tahoma, sans-serif;
+	font-size: 12pt;
+	width: 950px; 
+	margin: auto; 
+		}
+
+/*I centered the main heading of the webpage and also changed the color to a bright red. */
+h1 {
+	color:#cc3300;
+	text-align: center;
+	}
+
+/*This underlines the second line of the main heading to create a horizontal line between 
+the heading and the preceding information*/
+#secondline{
+	text-decoration: underline;
+	}
+
+/*This changes the color of each subheading to blue.*/
+h2 {
+	color:#336699;
+	}	
+
+/*Below, I adjusted the width and height of the photo (the Bear in the Tree) and I also 
+floated the photo to the right, instead of having it center or below the paragraph in order 
+to make the page more readable and organized. I also created a small margin on left and 
+the bottom of the photo, so the paragraph would not necessarily overlap the photo, and it
+is easier to reader. */
+.one{
+	width: 250px;
+	height: 200px;
+	float: right;
+	margin-left: 1%;
+	margin-bottom: 0.5em;
+	}
+
+/*Below, I adjusted the width and height of the photos (baby Sun Bear and the bear with its
+tongue out) and established a small margin on the right and the bottom of the photos.*/
+.two{
+	width: 190px;
+	height: 200px;
+	margin-right: 0.5%;
+	margin-bottom: 0.5em;
+	}
+/*Below, I adjusted the width and height of the photo (the bear laying on the rocks) and 
+established a small margin on the right and the bottom of the photo.*/	
+.three{	
+	width: 180px;
+	height: 200px;
+	margin-right: 0.5%;
+	margin-bottom: 0.5em;
+	}
+
+/*Below, I adjusted the width and height of the photo (the bear sitting down) and 
+established a small margin on the right and the bottom of the photo.*/	
+.four{
+	width: 150px;
+	height: 200px;
+	margin-right: 0.5%;
+	margin-bottom: 0.5em;
+	}
+
+/*Below, I adjusted the width and height of the photo (smiling Sun Bear) and 
+established a small margin on the right and the bottom of the photo.*/
+.five{
+	width: 185px;
+	height: 200px;
+	margin-right: 0.5%;
+	margin-bottom: 0.5em;
+	}
+
+/*Below, I adjusted the width and height of the photo (map of Southeast Asia) and 
+and I also floated the photo to the right, instead of having it center or below the 
+paragraph in order to make the page more readable and organized..*/	
+.six{
+	width: 300px;
+	height: 200px;
+	float: right;
+	}
+
+/*Below, I made the font size smaller than the rest of the information on the page and 
+changed the color to the same shade of red as the main heading.*/
+#para4{
+	font-size: 9pt;
+	color: #cc3300;
+	}
+
+/*Below, I made the font size smaller of the listed resources and changed the color of the
+bulleted information to the same shade of red as the main heading.*/	
+#list{
+	font-size: 9pt;
+	color: #cc3300;
+	}
+
+/*Below, I made the font size smaller and changed the color of the bulleted information 
+to the same shade of red as the main heading. I also floated the information to the right 
+of the page.*/	
+#para5{
+	font-size: 9pt;
+	color: #cc3300;
+	float: right;
+	}
+
