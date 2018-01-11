@@ -1,0 +1,180 @@
+/* Kayleen Italia */
+/* Three Column Template */
+/* 11-Jan-2018 */
+
+/*This helps to add a space between various items on the page.*/
+* { 
+    margin: 0;
+    padding: 0; }
+
+/* This adds a thin, black border underneath the header to add to the structure of the 
+three-column layout. */
+header { 
+    border-bottom: 1px solid black; }
+
+
+/* I adjusted the font of the body paragraph to be palatino and the font size to be 9.5.
+I also adjusted the width in order to center the entire webpage and created a margin around 
+the entire body. */	
+body {
+    width: 100%;
+    color:black;
+    background-color: #BDA7A7;
+    font-family: "Palatino";
+	font-size: 9.5pt;
+	 margin: 15px auto;
+     }
+    
+/*I centered the main heading of the webpage and also changed the color to black. */
+h1 {
+	color:black;
+	text-align: center;
+	}
+
+/*I centered and underlined the heading of the webpage and also changed the color to black. */
+h2 {
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	}
+
+/*I adjusted the width and height of the sidebar and floated all of the content to the left. 
+I also centered the information within the sidebar and added a thin, black border to the 
+right to add to the structure of the three-column layout. */ 
+#sidebarA {
+    width: 20%;
+    height: 460px;     
+    float: left;
+    text-align: center;
+    border-right: 1px solid black; 
+	 }
+
+/*Below, I adjusted the width and height of the photo (the DNA helix). I also created a 
+small margin on top, left, right, and bottom of the page, so the paragraph would not 
+necessarily overlap the photo, and it is easier to reader. Also, I created a small, black
+border around the photo. */
+.helix {
+	width: 200px;
+	height: 60px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	}
+
+/*I adjusted the width and height of the sidebar and floated all of the content to the 
+right. I also centered the information within the sidebar and added a thin, black border to 
+the left to add to the structure of the three-column layout. */ 
+#sidebarB {
+    width: 20%;
+    height: 460px;     
+    float: right;
+    text-align: center;
+    border-left: 1px solid black; 
+}
+
+/*Below, I adjusted the width and height of the photo (the Google Doodle). I also created a 
+small margin on top, left, right, and bottom of the page, so the paragraph would not 
+necessarily overlap the photo, and it is easier to reader. Meanwhile, I created a small, black
+border around the photo. */
+.doodle {
+	width: 200px;
+	height: 100px;
+	margin-right: 4px;
+	margin-left: 4px;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	}
+
+
+/*Below, I established a margin on the left and right of all the information or text in 
+the sidebar, so that the information will not bleed into the borders of the page, making
+it more readable and organized. */
+ #fact {
+	margin-left: 4px;
+	margin-right: 4px;
+	}
+
+/*I adjusted the width of the main box and floated all information to the left. */
+main {
+    width: 59.5%; 
+    float: left;
+    }
+
+/*The the heading--biography--is shifted to the left and there is also a margin besides 
+the heading to make the page more appealing to the eye. I also underlined the heading. */
+#bio {
+	float: left;
+	margin-left: 20px;
+	text-decoration: underline;
+	}
+
+
+/* This indicates that there is a margin both to the left and right of the paragraphs, so 
+they will not overlap the borders. Ultimately, by adding these borders, the page becomes 
+more organized and appealing. */
+#biopara {
+	margin-left: 20px;
+	margin-right: 20px;
+	}
+ 
+/*Below, I adjusted the width and height of the photo (the portrait of Franklin). I also 
+created a small margin on top, left, right, and bottom of the page, so the paragraph would not 
+necessarily overlap the photo, and it is easier to reader. Meanwhile, I created a small, black
+border around the photo. Additionally, I floated the photo to the left, instead of having 
+it center or below the paragraph in order to make the page more readable and organized.*/   
+.selfie {
+	width: 150px;
+	height: 160px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	}
+
+/*Below, I adjusted the width and height of the photo (Photo 51). I also created a small 
+margin on left, right, and bottom of the page, so the paragraph would not necessarily 
+overlap the photo, and it is easier to reader. Meanwhile, I created a small, black border 
+around the photo. Additionally, I floated the photo to the right, instead of having it 
+center or below the paragraph in order to make the page more readable and organized.*/  
+.DNA  {
+	width: 150px;
+	height: 150px;
+	float: right;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 1em;
+	border: 1px solid black;
+	}
+
+/* I shifted the heading--sources--to the left and also established a margin to make the 
+page more readable and organized. */ 
+#sources {
+	text-align: left;
+	margin-left: 10px;
+	}
+
+/*Below, I adjusted the font size of the copyright warning, making it smaller than the rest 
+of the information on the webpage. The information displayed on the page that pertains to this 
+section is shown in black and floated to the right of the webpage. */
+	#info {
+	font-size: 9pt;
+	color: black;
+	float: right;
+	}	
+
+/*I established a margin to the left of the links in order to make the page more readable
+and organized.*/
+#link {
+	margin-left: 10px;
+	}
+
+/* I cleared both the right and left float properties and established a thin, black 
+top-border in order to add to the structure of the three-column layout. */
+footer {
+    clear: right; 
+    clear: left;
+    border-top: 1px solid black; }
